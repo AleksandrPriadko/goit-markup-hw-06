@@ -279,6 +279,9 @@ body {
 
 	fill: #000000;
 }
+.icon-closed-modal:hover {
+	fill: #2196f3;
+}
 .but-modal-closed {
 	position: absolute;
 	top: 8px;
