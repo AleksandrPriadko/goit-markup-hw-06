@@ -310,8 +310,12 @@ body {
 	padding-bottom: 40px;
 }
 .form-block {
+	position: relative;
 	display: inline-block;
 	width: 100%;
+}
+.forms {
+	margin-bottom: 30px;
 }
 .modal-block h2 {
 	font-size: 20px;
@@ -356,6 +360,16 @@ body {
 	border: 1px solid rgba(33, 33, 33, 0.2);
 	border-radius: 4px;
 }
+.form-items textarea::placeholder {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 0.01em;
+
+	color: rgba(117, 117, 117, 0.5);
+}
 .forms input[type="checkbox"] {
 	width: 16px;
 	height: 15px;
@@ -363,6 +377,33 @@ body {
 
 	background: #212121;
 }
+
+.modal-form-send {
+	width: 200px;
+	height: 50px;
+	background: #2196f3;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: 0.06em;
+	color: #ffffff;
+
+	border: 0px;
+
+	padding: 10px 56px;
+}
+
+.block-form-send {
+	display: flex;
+	justify-content: center;
+}
+
 /*СЕКЦИЯ 2*/
 .info {
 	background-color: #ffffff;
