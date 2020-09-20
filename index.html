@@ -399,26 +399,46 @@
 					<h2>Оставьте свои данные, мы вам перезвоним</h2>
 					<div class="form-block">
 						<form action="" method="POST" class="forms">
-							<ul class="form-items">
-								<li class="form-items-list">
+							<div class="form-items">
+								<div class="form-items-list">
 									<label for="name">Имя</label>
-									<input type="text" name="name" id="name" />
-								</li>
-								<li class="form-items-list">
+									<div class="block-form-icon">
+										<input type="text" name="name" id="name" class="form-input" />
+										<svg class="icon-forms1">
+											<use href="./images/icon/socweb/symbol-defs-g.svg#vector-people"></use>
+										</svg>
+									</div>
+								</div>
+								<div class="form-items-list">
 									<label for="telephone">Телефон</label>
-									<input type="tel" name="tel" id="telephone" />
-								</li>
-								<li class="form-items-list">
+									<div class="block-form-icon">
+										<input type="tel" name="tel" id="telephone" class="form-input" />
+										<svg class="icon-forms2">
+											<use href="./images/icon/socweb/symbol-defs-g.svg#vector-phone"></use>
+										</svg>
+									</div>
+								</div>
+								<div class="form-items-list">
 									<label for="mail">Почта</label>
-									<input type="email" name="mail" id="mail" />
-								</li>
-								<li class="form-items-list">
+									<div class="block-form-icon">
+										<input type="email" name="mail" id="mail" class="form-input" />
+										<svg class="icon-forms3">
+											<use href="./images/icon/socweb/symbol-defs-g.svg#vector-mail"></use>
+										</svg>
+									</div>
+								</div>
+								<div class="form-items-list">
 									<label for="comments">Комментарий</label>
 									<textarea name="comments" id="comments" placeholder="Введите текст"></textarea>
-								</li>
-							</ul>
-							<input type="checkbox" name="acept" id="flag" />
-							<label for="flag">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+								</div>
+							</div>
+							<div class="checkbox">
+								<input type="checkbox" name="acept" id="flag" />
+								<label for="flag">
+									Соглашаюсь с рассылкой и принимаю
+									<a href="">Условия договора</a>
+								</label>
+							</div>
 						</form>
 						<div class="block-form-send">
 							<button class="modal-form-send">Отправить</button>
